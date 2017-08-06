@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----- HEADER -----*/
+.header{ width:100%; height:90px; background-color:#046380;}
+.logo{ float:left; margin:15px 0 0 10px; padding:5px 0 0 50px; background: url(imgs/logoIcon.gif) no-repeat left center; font:normal 24px "ae_AlMateen", Arial, Helvetica, sans-serif; color:#efecca;}
+.userInfo{ float:right; margin:30px 10px 0 0; color:#efecca; font: normal 12px Arial, Helvetica, sans-serif;}
+.userInfo a{ text-decoration:none; color:#efecca;}
+.userInfo a:hover{ text-decoration: underline;}
+.userInfo ul {list-style-type: none; margin:0px; padding:0px;}
+.userInfo li{display:inline; margin:0 0 0 20px;}
+
+
+
+/*----- BODY -----*/
+.breadCramps{margin:10px; font: normal 11px Arial, Helvetica, sans-serif; color:#2f2f2f;}
+.breadCramps ul{list-style-type:none; margin:0px; padding:0px;}
+.breadCramps li{display:inline; margin:0 2px 0 0;}
+.breadCramps li a{padding:0 17px 0 0; color:#046380; background:url(imgs/breadCrampsSeparator.gif) no-repeat right center; text-decoration:none;}
+.breadCramps li a:hover{ text-decoration:underline;}
+
+
+/*Button*/
+.button{ font: bold 12px Arial, Helvetica, sans-serif; color:#FFF; border:none 0px; background: url(imgs/buttonLeft.gif) no-repeat left top #046380; display: inline-block; margin:0px;}
+.button a{padding:7px 12px 7px 12px; color:#FFF; display:block;}
+.button a:hover{ background:url(imgs/buttonLeftHover.gif) no-repeat left top; color:#FFF; text-decoration:none;}
+.button span{padding:0px; margin:0px; display: block; background:url(imgs/buttonRight.gif) no-repeat right top;}
+.button span:hover{ background: url(imgs/buttonRightHover.gif) no-repeat right top #002f2f;}
+
+/*Disabled Button*/
+.button_D{ font: bold 12px Arial, Helvetica, sans-serif; color:#FFF; border:none 0px; background: url(imgs/buttonLeft_D.gif) no-repeat left top #c3c3c3; display: inline-block; margin:0px;}
+.button_D a{padding:7px 12px 7px 12px; color:#FFF; display:block;}
+.button_D a:hover{padding:7px 12px 7px 12px; color:#FFF; display:block; text-decoration:none;}
+.button_D span{padding:0px; margin:0px; display: block; background:url(imgs/buttonRight_D.gif) no-repeat right top;}
+
+
+.aa{width: auto; min-height:180px; border:solid 1px #d0cb8b; background-color:#FFF; padding:5px 10px 10px 10px; margin:10px 0 0 0; line-height:24px;}
+
+/*----- FOOTER -----*/
+.footer{  position: fixed; bottom:0px; width: 100%; background-color:#002f2f; font:normal 10px Arial, Helvetica, sans-serif; color:#efecca; text-align:center; padding:12px 0; margin:10px 0 0 0;}
+
+/* styling of the container. */
+a.player {
+	display:block;
+	width: 635px;
+	height:360px; 
+	text-align:center;
+	margin:0 15px 15px 0;
+	float:left;
+	border:1px solid #999;
+}
+
+/* play button */
+a.player img {
+	margin-top:70px;
+	border:0px;
+}
+
+/* when container is hovered we alter the border color */
+a.player:hover {
+	border:1px solid #000;
+}
+
+a.player-small{
+	//display:block;
+	float:right;
+	clear:both;
+	width: 320px;
+	height:240px; 
+	text-align:center;
+	margin:0 15px 15px 0;
+	float:left;
+	border:1px solid #999;
+}
+
+/* play button */
+a.player-small img {
+	margin-top:70px;
+	border:0px;
+}
+
+/* when container is hovered we alter the border color */
+a.player-small:hover {
+	border:1px solid #000;
+}
+
+#menu li { 
+display: inline;
+}
+.subTitle {width:60%;padding-left: 6em; display: inline-block;text-align: left}
+.projectLogo {float:left; display:inline-table; width:40%}
+.project {width:100%;float:none; padding-bottom: 1em; clear:left}
+.researchProjects {clear:left}
+.students {clear:left; padding-left: 3em; padding-top: 2em}
+.projectInfo {padding-left: 1em; margin-left: 1em; vertical-align: baseline; padding-top: 0.5em}
+.myName {display: inline-block;padding-left: 3em}
+.wrapper {width:100%;overflow:hidden}
+.content {width:80%;padding-left: 1em;padding-right: 1em;font-size: 0.8em;}
+.content-shifted {width:80%;padding-left: 3em;padding-right: 1em;font-size: 0.9em;}
+    
+nav{
+    padding-left:1em;
+    font-size: 0.7em;
+}
+    img{
+        display: inline-block
+    }
+
+body {font-size: 18px; font-family: Arial, Helvetica, sans-serif; width: 1200px}
+
+
+.pNews{
+    text-indent:-0.7em;
+    margin-left:0.7em;
+    margin-bottom: 0px;
+    margin-top: 0.2em;
+    font-size:0.8em;
+}
+
+.projectPublication{
+    font-size: 80%;
+}
+
+.news{
+    font-size: 1em;
+    padding-left: 3em;
+    margin-bottom: 1em;
+}
+
+.olderNews{
+    font-size:1em;
+    padding-left: 3em;
+    margin-left:0.7em;
+}
+    
+    
+h1 {color: #006633; font-size: 2em; font-family: Arial, Helvetica, sans-serif; padding-top: 0em}
+h3 {color: #006633; text-align: left; font-size: 0.8em; font-family: Arial, Helvetica, sans-serif}
+h2 {color: #006633; font-size: 1.2em; font-family: Arial, Helvetica, sans-serif}
+h5 {font-size: 1em}
+h1, h2, h3 {
+    display: inline-table;
+    padding-right: 1em;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0.2em;
+    margin-top: 0px
+}
+
+a:visited {color:#006633; text-decoration: none}
+a:link {color:#006633; text-decoration: none}
+a:hover {  color: #FF0000; text-decoration: underline}

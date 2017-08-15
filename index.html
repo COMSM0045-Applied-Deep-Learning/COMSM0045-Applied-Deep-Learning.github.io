@@ -9,12 +9,11 @@
 <body>
 <h1>COMSM0018 - Applied Deep Learning</h1>
 
-<!--<style>
-td.blank  {vertical-align: center; horizontal-align: center; text-align: center; background: #f1f1f1;}
-td.dima {vertical-align: center; horizontal-align: center; text-align: center; background: #FFE5B4;}
-td.chek   {vertical-align: center; horizontal-align: center; text-align: center; background: #ffffaa;}
-td.majid    {vertical-align: center; horizontal-align: center; text-align: center; background: #CCFFFF;}
-</style>-->
+<style>
+td.blank  {vertical-align: center; horizontal-align: center; text-align: left; background: #f1f1f1;}
+td.dima {vertical-align: center; horizontal-align: center; text-align: left; background: #FFE5B4;}
+td.tilo   {vertical-align: center; horizontal-align: center; text-align: left; background: #ffffaa;}
+</style>
     
 <link rel="stylesheet" href="simple.css"> 
 
@@ -26,31 +25,29 @@ syllabus for the unit</a>.
 
 
 <table>
-<tr><td><a HREF="http://dimadamen.github.io">Dima Damen</a></td><td>office 3.12 MVB. <b>Unit Director</b></td></tr>
-<tr><td><a HREF="http://www.cs.bris.ac.uk/~burghard/">Tilo Burghardt</a></td><td> office 3.42 MVB. </td></tr>
+<tr><td class="dima"><a HREF="http://dimadamen.github.io">Dima Damen (DD)</a></td><td>office 3.12 MVB. <b>Unit Director</b></td></tr>
+<tr><td class="tilo"><a HREF="http://www.cs.bris.ac.uk/~burghard/">Tilo Burghardt (TB)</a></td><td> office 3.42 MVB. </td></tr>
 </table>
     
     <h2> Teaching Assistants</h2>
 
+<p>Hazel Doughty (HD), Davide Moltisanti (DM), Miguel Fortiz (MF), Michael Wray (MW), Will Price (WP), Will Andrew (WA), Andre Poenaru (AP)</p>
 
-<table>
-<tr><td>Hazel Doughty</a></td></tr>
-<tr><td>Davide Moltisanti</a></td></tr>
-<tr><td>Miguel Fortiz</a></td></tr>
-<tr><td>Michael Wray</a></td></tr>
-<tr><td>Will Price</a></td></tr>
-<tr><td>Will Andrew</a></td></tr>
-<tr><td>Andre Poenaru</a></td></tr>
-</table>
     
 <h2>Introduction</h2>
 
-    <p>The unit introduces the students to the latest deep architectures for learning linear and non-linear transformations of big data towards tasks such as classification and regression. The unit paves the path from understanding the fundamentals of convolutional and recurrent neural networks through to training and optimisation as well as evaluation of learnt outcomes. The unit’s approach is hands-on, focusing on the ‘how-to’ while covering the basic theoretical foundations.</p>
+    <p>The unit introduces the students to the latest deep architectures for learning linear and non-linear transformations of big data towards tasks such as classification and regression. The unit paves the path from understanding the fundamentals of convolutional and recurrent neural networks through to training and optimisation as well as evaluation of learnt outcomes. The unit's approach is hands-on, focusing on the 'how-to' while covering the basic theoretical foundations.</p>
 
 
 <h2>Assessment Details</h2>
 
-<p>The student will undertake a challenge of replicating a state-of-the-art performance on a publicly available dataset using one of the deep architectures discussed on the unit. This coursework will be assessed through an interim presentation (oral) or report (written) (40%) as well as a final report (60%).</p>
+<p>The student will undertake a challenge of replicating a state-of-the-art performance on a publicly available dataset using one of the deep architectures discussed on the unit. The unit will have three assessments
+    <ol><li> Lab portfolio (20%)
+    </li>
+    <li> Individual Oral Presentation (5 minutes) (20%) [Wk10 - Wk11]</li>
+    <li> Group (up to 3) Project - assessed by a final report (60%) [Wk13] </li>
+    </ol>
+</p>
 
 <h2>Textbook</h2>
 <p>Goodfellow et al (2016). Deep Learning. MIT Press</p>
@@ -62,18 +59,29 @@ syllabus for the unit</a>.
     <td><i>Weeks</i></td> <td><i>Lecture Hours</i></td> <td><i>Discussion Hours</i></td> <td><i>Labs</i></td> 
   </tr>
   <tr>
-      <td>1</td> <td>2 hours</td> <td>-</td> <td>-</td> </tr>
-   <tr>   <td>2</td> <td>2 hours</td> <td>-</td> <td>-</td> </tr>
-   <tr>   <td>3</td> <td>2 hours</td> <td>-</td> <td>-</td> </tr>
-     <tr>   <td>4</td> <td>1 hour</td> <td>-</td> <td>2 hours</td> </tr>
-     <tr>   <td>5</td> <td>-</td> <td>1 hour</td> <td>2 hours</td> </tr>
-    <tr>   <td>6</td> <td>1 hour</td> <td>-</td> <td>2 hours</td></tr>
-     <tr>   <td>7</td> <td>1 hour</td> <td>-</td> <td>2 hours</td> </tr>
+      <td>1</td> <td class="tilo">Multilayer Perceptron - a historical perspective (1hr) <br/> Deep forward networks and activation functions (1hr)</td> <td>-</td> <td>-</td> </tr>
+   <tr>   <td>2</td> <td class="tilo">Optimisation in DNNs (1hr) <br/> Parameters, regularisation and generalisation (1 hr)</td> <td>-</td> <td>-</td> </tr>
+   <tr>   <td>3</td> <td class="dima">Convolutional Neural Networks (1hr)<br/> Recurrent Neural Networks (1hr)</td> <td>-</td> <td>Filters and convolutions (Home Work)<br/> Python reminder (Home Work)</td> </tr>
+     <tr>   <td>4</td> <td class="dima">Practical1 (1hr)<br/>Introduction to BC/ Intro to TensorFlow<br/>
+Building your first model<br/>
+Error rate monitoring (training/validation/testing)</td> <td>-</td> <td>2 hours</td> </tr>
+     <tr>   <td>5</td> <td class="dima">Practical2 (1hr)<br/> Batch-based training<br/>
+Learning rate<br/>
+Batch normalisation<br/>
+Parameter intialisation</td> <td>-</td> <td>2 hours</td> </tr>
+    <tr>   <td>6</td> <td class="dima">Practical3 (1hr)<br/>Data augmentation<br/>
+Debugging strategies<br/>
+Adversal training<br/></td> <td>-</td> <td>2 hours</td></tr>
+     <tr>   <td>7</td> <td class="dima">Practical4 (1hr) <br/> Baseline models<br/>
+Changing your loss function<br/>
+Adding/subtracting layers<br/>
+Shallow/deep architectures<br/>
+Hyperparameters</td> <td>-</td> <td>2 hours</td> </tr>
      <tr>   <td>8</td> <td colspan="2">READING WEEK</td> <td>2 hours (catchup lab)</td> </tr>
-<tr>   <td>9</td> <td>1 hour</td> <td>-</td> <td>2 hours</td> </tr>
-<tr>   <td>10</td> <td>-</td> <td>1 hour</td> <td>Interum Presentations</td> </tr>
-<tr>   <td>11</td> <td>-</td> <td>1 hour</td> <td>Interum Presentations</td> </tr>
-<tr>   <td>12</td> <td>-</td> <td>1 hour</td> <td>-</td> </tr>
+<tr>   <td>9</td> <td class="dima">From theory to practice - applications and success stories (1hr)</td> <td>-</td> <td>-</td> </tr>
+<tr>   <td>10</td> <td>-</td> <td>1hr (collection of talks)</td> <td>Interum Presentations (3hrs)</td> </tr>
+<tr>   <td>11</td> <td>-</td> <td>1hr (collection of talks)</td> <td>Interum Presentations (3hrs)</td> </tr>
+<tr>   <td>12</td> <td>-</td> <td>1hr (collection of talks)</td> <td>-</td> </tr>
 
 </table>
 

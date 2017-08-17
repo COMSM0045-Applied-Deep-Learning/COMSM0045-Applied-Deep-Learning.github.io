@@ -3,12 +3,13 @@
   padding:20px;
   margin:0 auto;
   background-color:#fff;
+  border:1px;
 }
 
 body{
   font-family:arial, Helvetica, sans-serif;
   font-size:10pt;
-  background-color:#000;
+  background-color:#fff;
   color:#555;
 }
 

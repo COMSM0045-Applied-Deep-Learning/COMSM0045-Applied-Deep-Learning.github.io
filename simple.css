@@ -1,4 +1,14 @@
-body	{font-family: arial, helvetica, sans-serif;font-size:10pt;}
+#wrap{
+  width:800px;
+  margin:0 auto;
+  background-color:#fff;
+}
+
+body{
+  font-family:arial, Helvetica, sans-serif;
+  font-size:10pt;
+  color:#555;
+}
 
 h1 {color: #006633; font-size:16pt; font-family: Arial, Helvetica, sans-serif}
 h2 {color: #006633; font-size:13pt; font-family: Arial, Helvetica, sans-serif}

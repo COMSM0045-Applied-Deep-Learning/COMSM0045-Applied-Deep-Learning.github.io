@@ -1,4 +1,4 @@
-# COMSM0018 Applied Deep Learning Website
+# COMSM0018 Applied Deep Learning Website [![CircleCI](https://circleci.com/gh/COMSM0018-Applied-Deep-Learning/COMSM0018-Applied-Deep-Learning.github.io.svg?style=svg)](https://circleci.com/gh/COMSM0018-Applied-Deep-Learning/COMSM0018-Applied-Deep-Learning.github.io)
 
 ## Contributing
 

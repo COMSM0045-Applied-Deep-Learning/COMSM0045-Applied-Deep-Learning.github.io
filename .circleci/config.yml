@@ -1,0 +1,18 @@
+version: 2
+
+jobs:
+  build:
+    working_directory: ~/comsm0018-unit-webpage
+    steps:
+      - checkout
+      - restore_cache:
+          key: vnu-cache
+
+      - run:
+          name: Test XHTML compliance.
+          command: make check
+
+      - save_cache:
+          paths:
+            - /tmp/vnu
+          key: vnu-cache

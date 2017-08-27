@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: openjdk:8-jre-alpine
+      - image: buildpack-deps:trusty
     working_directory: ~/comsm0018-unit-webpage
     steps:
       - checkout

@@ -1,6 +1,6 @@
 .PHONY: check
 
-HTML_FILES := $(shell find . -iname '*.html' -type f)
+HTML_FILES := $(shell find . -iname '*.xhtml' -type f)
 
 check: $(HTML_FILES) vnu.jar
 	java -jar vnu.jar $(HTML_FILES)

@@ -2,8 +2,9 @@ version: 2
 
 jobs:
   build:
-    docker:
-      - image: buildpack-deps:trusty
+    machine:
+      java:
+        version: oraclejdk8
     working_directory: ~/comsm0018-unit-webpage
     steps:
       - checkout
